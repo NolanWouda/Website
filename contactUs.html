@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Northern Iron</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./styles/site.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="./images/NorthernIronLogoFavicon.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <header class="banner">
+        <img src="./images/NorthernIronLogo.png" alt="Logo" class="logo">
+        <h1>Northern Iron</h1>
+        <p class="tagline hidden">
+            True north strong
+        </p>
+        <nav>
+            <ul>
+                <li><a class="pagesBanner" href="./index.html">Home</a></li>
+                <li><a class="pagesBanner hidden" href="./contactus.html">Contact Us</a></li>
+                <li><a class="pagesBanner" href="./services.html">Services</a></li>
+                <li><a class="pagesBanner hidden" href="./aboutus.html">About Us</a></li>
+                <li><a class="pagesBanner" href="./events.html">Events</a></li>
+                <li><a class="pagesBanner" href="./ourheritage.html">Our Heritage</a></li>
+                <li><a class="pagesBanner hidden" href="./contactus.html">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Contact Us</h2>
+        <section>
+             <div class="mb-3">
+            <h3>Sign Up</h3>
+            <hr>
+            <form action="contactUs.html" method="get">
+                <label for="fullName">Full Name</label>
+                <input class="form-control" type="text" name="fullName" id="fullName" placeholder="John Smith">
+                <label for="email">Email</label>
+                <input class="form-control" type="email" name="email" id="email" placeholder="jSmith@gmail.com">
+                <label for="phone">Phone Number</label>
+                <input class="form-control" type="tel" name="phone" id="phone" placeholder="(257) 555-5555">
+                <fieldset>
+                    <legend>Service of Interest</legend>
+                    <input type="radio" id="memberships" name="service">
+                    <label for="memberships">Memberships</label><br>
+                    <input type="radio" id="kitchen" name="service">
+                    <label for="kitchen">Iron Skillet</label><br>
+                    <input type="radio" id="trainer" name="service">
+                    <label for="trainer">Personal Trainers</label><br>
+                </fieldset>
+                <br>
+                <select class="form-control">
+                    <option>--Select One--</option>
+                    <optgroup>
+                        <option>--Memberships--</option>
+                        <option>1 month</option>
+                        <option>3 months</option>
+                        <option>12 months</option>
+                    </optgroup>
+                    <optgroup>
+                        <option>--Iron Skillet</option>
+                        <option>Meal Prep Plan</option>
+                    </optgroup>
+                    <optgroup>
+                        <option>--Personal Trainers--</option>
+                        <option>3 lifts</option>
+                        <option>10 lifts</option>
+                        <option>24 lifts</option>
+                    </optgroup>
+                </select>
+                <br>
+                <button class="btn btn-primary" type="submit" id="submit" name="submit"> Submit</button>
+                <button class="btn btn-primary" type="reset" id="clear" name="clear">Clear</button>
+            </form>
+        </div>
+        <div class="mb-3">
+            <h3>Queries</h3>
+            <hr>
+            <form action="contactUs.html" method="get">
+                <label for="fullName">Full Name</label>
+                <input class="form-control" type="text" name="fullName" id="fullName" placeholder="John Smith">
+                <label for="email">Email</label>
+                <input class="form-control" type="email" name="email" id="email" placeholder="jSmith@gmail.com">
+                <label for="phone">Phone Number</label>
+                <input class="form-control" type="tel" name="phone" id="phone" placeholder="(257) 555-5555">
+                <fieldset>
+                    <legend>Services of Interest</legend>
+                    <input type="checkbox" id="memberships" name="service">
+                    <label for="memberships">Memberships</label><br>
+                    <input type="checkbox" id="kitchen" name="service">
+                    <label for="kitchen">Iron Skillet</label><br>
+                    <input type="checkbox" id="boutique" name="service">
+                    <label for="boutique">Boutique</label><br>
+                    <input type="checkbox" id="trainer" name="service">
+                    <label for="trainer">Personal Trainers</label><br>
+                </fieldset>
+                <textarea class="form-control" id="clientText" name="clientText" rows="4" placeholder="We love you guys can I buy 100 years of memberships?"></textarea>
+                <button class="btn btn-primary" type="submit" id="submit" name="submit"> Submit</button>
+                <button class="btn btn-primary" type="reset" id="clear" name="clear">Clear</button>
+            </form>
+        </div>
+        </section>
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><a class="pagesFooter" href="./index.html">Home</a></li>
+                <li><a class="pagesFooter" href="./contactus.html">Contact Us</a></li>
+                <li><a class="pagesFooter" href="./services.html">Services</a></li>
+                <li><a class="pagesFooter" href="./aboutus.html">About Us</a></li>
+                <li><a class="pagesFooter" href="./events.html">Events</a></li>
+                <li><a class="pagesFooter" href="./ourheritage.html">Our Heritage</a></li>
+                <li><a class="pagesFooter" href="./contactus.html">Sign Up</a></li>
+            </ul>
+        </nav>
+        <address>
+            325 boul de la Cité-des-Jeunes <br><br>
+            Gatineau Qc Canada<br><br>
+            J8Y 6T3 <br><br>
+            <a href="tel:8192094974">Call us 819 209 4974</a><br><br>
+            <a href="mailto:nolanwouda@icloud.com">Email us nolanwouda@icloud.com</a><br><br>
+            <a href="https://www.pexels.com/photo/a-bodybuilder-at-the-gym-5327497/">Weightlifter image by Tima
+                Miroshnichenko</a><br><br>
+            <a href="https://www.pexels.com/photo/people-rope-sport-rustic-6389892/">Weight Stack image by Tima
+                Miroshnichenko</a><br><br>
+            <a href="https://www.canva.com/templates">Logo App</a><br><br>
+            <small>&copy; Nolan Wouda 2025</small>
+        </address>
+        <img src="./images/NorthernIronLogo.png" alt="Logo" class="logo hidden">
+    </footer>
+</body>
+
+</html>
