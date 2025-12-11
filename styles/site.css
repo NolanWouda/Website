@@ -277,7 +277,7 @@ address {
     }
 
     video {
-        max-inline-size: 700px;
+        max-inline-size: 90%;
         justify-self: center;
         display: block;
         margin: auto;
@@ -410,4 +410,5 @@ address {
         display: flex;
         align-items: center;
     }
+
 }
